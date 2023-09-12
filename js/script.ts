@@ -5,34 +5,27 @@ function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function buttonBg(){
-    var buttonBackground: HTMLButtonElement;
-    buttonBackground = <HTMLButtonElement>document.getElementById('buttonChangeMode');
-    if(document.body.style.backgroundColor = 'rgb(255, 255, 245)')
-    {
+function buttonToDark(){
     var btnGen: HTMLButtonElement;
     btnGen = <HTMLButtonElement>document.getElementById('generate');
 
     document.body.style.backgroundColor = 'rgb(56, 56, 56)';
     document.body.style.color = 'rgb(255, 245, 245)';
 
-    buttonBackground.innerHTML = '<i class="fa-solid fa-moon fa-2xl" style="color: #383838;"></i>'
     btnGen.style.backgroundColor = 'rgb(50, 50, 100)';
     btnGen.style.color = 'rgb(255, 255, 235)';
     btnGen.style.borderColor = 'rgb(255, 255, 235)';
-    }
-    else{
-        var btnGen: HTMLButtonElement;
-        btnGen = <HTMLButtonElement>document.getElementById('generate');
+}
+function buttonToLight(){
+    var btnGen: HTMLButtonElement;
+    btnGen = <HTMLButtonElement>document.getElementById('generate');
+
+    document.body.style.backgroundColor = 'rgb(255, 255, 245)';
+    document.body.style.color = 'rgb(50, 50, 50)';
     
-        document.body.style.backgroundColor = 'rgb(255, 255, 245)';
-        document.body.style.color = 'rgb(50, 50, 50)';
-        
-        buttonBackground.innerHTML = '<i class="fa-solid fa-sun fa-2xl" style="color: #fffff5;"></i>';
-        btnGen.style.backgroundColor = 'rgb(255, 255, 225)';
-        btnGen.style.color = 'rgb(50, 50, 70)';
-        btnGen.style.borderColor = 'rgb(50, 50, 70)';
-    }
+    btnGen.style.backgroundColor = 'rgb(255, 255, 225)';
+    btnGen.style.color = 'rgb(50, 50, 70)';
+    btnGen.style.borderColor = 'rgb(50, 50, 70)';
 }
 function genVideos(){
     var rndmNum: number;
