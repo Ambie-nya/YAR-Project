@@ -16,7 +16,7 @@ function buttonBg(){
     document.body.style.backgroundColor = 'rgb(56, 56, 56)';
     document.body.style.color = 'rgb(255, 245, 245)';
 
-    buttonBackground.textContent = '<i class="fa-solid fa-moon fa-2xl" style="color: #383838;"></i>'
+    buttonBackground.innerHTML = '<i class="fa-solid fa-moon fa-2xl" style="color: #383838;"></i>'
     btnGen.style.backgroundColor = 'rgb(50, 50, 100)';
     btnGen.style.color = 'rgb(255, 255, 235)';
     btnGen.style.borderColor = 'rgb(255, 255, 235)';
@@ -28,7 +28,7 @@ function buttonBg(){
         document.body.style.backgroundColor = 'rgb(255, 255, 245)';
         document.body.style.color = 'rgb(50, 50, 50)';
         
-        buttonBackground.textContent = '<i class="fa-solid fa-sun fa-2xl" style="color: #fffff5;"></i>';
+        buttonBackground.innerHTML = '<i class="fa-solid fa-sun fa-2xl" style="color: #fffff5;"></i>';
         btnGen.style.backgroundColor = 'rgb(255, 255, 225)';
         btnGen.style.color = 'rgb(50, 50, 70)';
         btnGen.style.borderColor = 'rgb(50, 50, 70)';
