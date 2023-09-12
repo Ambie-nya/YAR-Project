@@ -7,7 +7,7 @@ body{
 #abbTitle{
     opacity: 80%;
 }
-#buttonChangeMode{
+.buttonChangeMode{
     margin-top: 10px;
     background:none;
     border: none;
