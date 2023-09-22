@@ -37,3 +37,32 @@ body{
         height: 315px;
     }
 }
+.vids{
+    max-width: 40%;
+    max-height: 720px;
+
+    min-width: 40%;
+}
+#go{
+    background-color: rgb(255, 255, 225);
+    color: rgb(50, 50, 50);
+    border-radius: 15px;
+    border-color: rgb(50, 50, 50);
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    
+}
+hr{
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+}
+#go:hover{
+    background-color: rgb(255, 255, 205);
+}
+a:visited{
+    color: rgb(155, 50, 155);
+}
